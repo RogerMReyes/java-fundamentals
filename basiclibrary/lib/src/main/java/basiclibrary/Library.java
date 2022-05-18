@@ -50,7 +50,6 @@ public class Library {
         }
         return lowestAvgArray;
     }
-
 //    public int[] lowestAvgArray(int[][] array){
 //        float avg = 0;
 //        int[] minArr = new int[array[0].length];
