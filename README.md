@@ -1,10 +1,11 @@
-# java-fundamentals
+# 401 Labs
 
-Lab: 01 Java Primitives and Control Flow
+## Lab 01 java-fundamentals
+
 
 Estimate of time needed to complete: 2 hour
 
-Start time: 4:00
+Start time: 4:00pm
 
 Finish time: 6:00pm
 
@@ -14,3 +15,15 @@ Summary: In this lab we explored multiple basic concepts with Java primitives. W
 Resources:
 [local date time](https://howtodoinjava.com/java/date-time/execution-elapsed-time/#2-systemnanotime)
 [Nano time](https://mkyong.com/java8/java-8-how-to-format-localdatetime/)
+
+## Lab 02 Arrays, Loops, Imports, ArrayLists
+
+Estimate of time needed to complete: 2 hour
+
+Start time: 2:00pm
+
+Finish time: 4:30pm
+
+Actual time needed to complete: 2 hours 30 minutes
+
+Summary: In this lab we explored the functionality of arrays and loops. One thing I found interesting was how the double array syntax is structured. 
