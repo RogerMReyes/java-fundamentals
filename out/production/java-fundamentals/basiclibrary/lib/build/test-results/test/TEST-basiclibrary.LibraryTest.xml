@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basiclibrary.LibraryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-18T21:35:37" hostname="DESKTOP-TF0GLJD" time="0.015">
+  <properties/>
+  <testcase name="tallyTest()" classname="basiclibrary.LibraryTest" time="0.015"/>
+  <system-out><![CDATA[Bush received the most votes!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
