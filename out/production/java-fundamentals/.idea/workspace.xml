@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36364d13-2483-486b-8cc6-f065e094877f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/linter/app/src/main/resources/gates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/lib/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/lib/src/main/java/basiclibrary/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/lib/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/lib/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29J9i557A2OZkBw8wCzaYbfM5X8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/roger/Java/CF401/java-fundamentals"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linter.App" />
+      <module name="java-fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36364d13-2483-486b-8cc6-f065e094877f" name="Changes" comment="" />
+      <created>1652820444899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652820444899</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
