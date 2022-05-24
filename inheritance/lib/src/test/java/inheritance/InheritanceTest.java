@@ -4,15 +4,15 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class inheritanceTest {
+public class InheritanceTest {
     Restaurant newRestaurant = new Restaurant("Pizza Palace", "$$");
     Review newReview = new Review("Roger", "This place not good", 2);
     Review newReview2 = new Review("Roger", "This place okay", 4);
 
     @Test
     void restaurantConstructorReturnsNameAndPrice() {
-        assertTrue(newRestaurant.getName() == "Pizza Palace");
-        assertTrue(newRestaurant.getPrice() == "$$");
+        assertSame("Pizza Palace", newRestaurant.getName());
+        assertSame("$$", newRestaurant.getPrice());
     }
 
     @Test
@@ -22,9 +22,9 @@ public class inheritanceTest {
 
     @Test
     void reviewConstructorReturnsInputs() {
-        assertTrue(newReview.getAuthor() == "Roger");
-        assertTrue(newReview.getText() == "This place not good");
-        assertTrue(newReview.getNumOfStars() == 2);
+        assertSame("Roger", newReview.getAuthor());
+        assertSame("This place not good", newReview.getText());
+        assertEquals(2, newReview.getNumOfStars());
     }
 
     @Test
