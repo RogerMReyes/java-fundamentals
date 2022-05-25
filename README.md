@@ -57,3 +57,17 @@ Finish time: 2:00pm
 Actual time needed to complete: 1 hours
 
 Summary: In this lab we implemented making classes, creating properties and methods for these classes, and utilizing these methods in order to alter data. We created a Restaurant class that holds the properties of a name, star rating, and price category. Every Restaurant also holds an ArrayList of Reviews which is another class we created. Reviews holds the properties of an author, text review, and a star rating. Methods were added to Restaurant that allows it to take in a Review, add it to the Restaurants ArrayList and update the star rating of the Restaurant based on its Review ratings.
+
+---
+
+## Lab 07 Composition and Inheritance Pt.2
+
+Estimate of time needed to complete: 2 hour
+
+Start time: 2:00pm
+
+Finish time: 4:00pm
+
+Actual time needed to complete: 2 hours
+
+Summary: In this lab we went into refactoring in order to better modularize our code. Abstract classes (Business, Review) were made that contained like properties and methods that could be inherited down to its children. From these classes I created individual classes for Restaurant, Shop, and Theatre. All these classes extend Business and inherit its properties and methods while still having their own unique properties and methods. The same was done for Review.
