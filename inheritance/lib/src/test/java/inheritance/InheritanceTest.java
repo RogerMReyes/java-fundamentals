@@ -1,13 +1,20 @@
 package inheritance;
 
+import inheritance.Business.Restaurant;
+import inheritance.Business.Shop;
+import inheritance.Business.Theater;
+import inheritance.Review.RestaurantReview;
+import inheritance.Review.Review;
+import inheritance.Review.ShopReview;
+import inheritance.Review.TheaterReview;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class InheritanceTest {
     Restaurant newRestaurant = new Restaurant("Pizza Palace", "$$");
-    Review newReview = new Review("Roger", "This place not good", 2);
-    Review newReview2 = new Review("Roger", "This place okay", 4);
+    RestaurantReview newReview = new RestaurantReview("Roger", "This place not good", 2);
+    RestaurantReview newReview2 = new RestaurantReview("Roger", "This place okay", 4);
 
     @Test
     void restaurantConstructorReturnsNameAndPrice() {
@@ -29,14 +36,14 @@ public class InheritanceTest {
 
     @Test
     void reviewToStringReturnsData() {
-        assertEquals("Roger This place not good 2", newReview.toString());
+        assertEquals("author: Roger text: This place not good numOfStars: 2", newReview.toString());
     }
 
     @Test
     void restaurantArrayListReturnsUpdated() {
         newRestaurant.addReview(newReview);
         Review checkReview = newRestaurant.getReviewList().get(0);
-        assertEquals("Roger This place not good 2", checkReview.toString());
+        assertEquals("author: Roger text: This place not good numOfStars: 2", checkReview.toString());
     }
 
     @Test
@@ -44,5 +51,31 @@ public class InheritanceTest {
         newRestaurant.addReview(newReview);
         newRestaurant.addReview(newReview2);
         assertEquals(3, newRestaurant.getNumOfStars());
+    }
+
+    @Test
+    void ShopClassConstructorAndReviewMethodsWork() {
+        Shop newShop = new Shop("Target", "$$$", "We are fancy Walmart");
+    }
+
+    @Test
+    void TheaterClassAddsAndRemovesMovies() {
+        Theater newTheater = new Theater("Regal");
+        newTheater.addMovie("Aladdin");
+        newTheater.addMovie("Transformers");
+        assertEquals("[Aladdin, Transformers]", newTheater.getMovieList().toString());
+        newTheater.removeMovie("Aladdin");
+        assertEquals("[Transformers]", newTheater.getMovieList().toString());
+    }
+
+    @Test
+    void TheaterHoldsReviews() {
+        Theater newTheater = new Theater("Regal");
+        TheaterReview review = new TheaterReview("Roger","Aladdin","This is classic", 5);
+        TheaterReview review2 = new TheaterReview("Roger","Transformers","Go Boom", 4);
+        newTheater.addReview(review);
+        newTheater.addReview(review2);
+        assertEquals("author: Roger movie: Aladdin text: This is classic numOfStars: 5", newTheater.getReviewList().get(0).toString());
+        assertEquals(4, newTheater.getNumOfStars());
     }
 }
